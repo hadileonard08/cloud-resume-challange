@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadianto Leonard Resume (Mobile Friendly)</title>
+    <style>
+        /* Base Styles (for all devices, including desktop) */
+        body {
+            font-family: 'Times New Roman', serif;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #000;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            text-transform: uppercase;
+            font-size: 18pt;
+        }
+        h3 {
+            border-bottom: 1px solid #000;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        .resume-entry {
+            margin-bottom: 15px;
+        }
+        
+        /* Desktop Layout (default: two columns) */
+        .resume-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Mobile Layout (for screens 650px wide or less) */
+        @media screen and (max-width: 650px) {
+            .resume-row {
+                flex-direction: column; /* Stacks the content vertically */
+            }
+            /* Ensures location/date details are stacked immediately below title */
+            .resume-row span {
+                text-align: left; /* Changes right-aligned text back to left-aligned */
+                margin-top: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h1>Hadianto Leonard</h1>
+        <p style="margin: 5px 0 0 0;">
+            Chicago, Illinois 60605 hadileonardd@gmail.com +1 (810)292-1235
+        </p>
+    </div>
+
+    <h3>Education</h3>
+    
+    <div class="resume-entry">
+        <div class="resume-row">
+            <strong>University of Michigan</strong>
+            <span>Ann Arbor, Michigan</span>
+        </div>
+        <div class="resume-row">
+            <i>Bachelor of Science in Computer Science</i>
+            <span>Aug 2018 - May 2022</span>
+        </div>
+    </div>
+
+    <h3>Experience</h3>
+
+    <div class="resume-entry">
+        <div class="resume-row">
+            <strong>Capgemini LLC</strong>
+            <span>Chicago, Illinois</span>
+        </div>
+        <div class="resume-row">
+            <i>Software Developer/Consultant</i>
+            <span>August 2022 - Current</span>
+        </div>
+        <ul>
+            <li>Collaborated with Product Owners to manage and refine product backlogs, developing user stories and acceptance criteria to align with business needs.</li>
+            <li>Facilitated Agile ceremonies, including sprint planning, standups, and retrospectives, to optimize team efficiency and delivery outcomes.</li>
+            <li>Conducted requirements gathering and data analysis to support product roadmap decisions and feature prioritization.</li>
+            <li>Partnered with cross-functional teams, including developers, UX designers, and QA, to design and deliver innovative solutions aligned with strategic goals.</li>
+            <li>Maintained technical documentation, release notes, and end-user guides for seamless product deployments and updates.</li>
+            <li>Supported incident resolution and root cause analysis for critical applications, reducing downtime and improving system reliability.</li>
+            <li>Managed multiple deployment cycles for enterprise clients, ensuring smooth transitions and minimal business disruptions.</li>
+            <li>Developed and maintained Contact-Center AI (CCAI) on GCP, resulting in enhanced efficiency in customer support interaction by reducing handling time and increasing customer satisfaction.</li>
+            <li>Utilize GCP Contact-Center AI (CCAI), and other GCP cloud-based solutions (Cloud Storage, Firestore, Firebase, Cloud Functions, Compute Engine, etc) achieving high-performance standards in various environments.</li>
+        </ul>
+    </div>
+
+    <h3>Leadership & Activities</h3>
+
+    <div class="resume-entry">
+        <div class="resume-row">
+            <strong>CCUC</strong>
+            <span>Chicago, Illinois</span>
+        </div>
+        <div class="resume-row">
+            <i>Volunteer</i>
+            <span>February 2025 - Current</span>
+        </div>
+        <ul>
+            <li>Provided consistent monthly mentorship and spiritual support to youth residing in a local juvenile center.</li>
+            <li>Organized and led engaging, morale-boosting sessions, including recreational games and interactive storytelling, to foster positive social interaction and development.</li>
+            <li>Facilitated a supportive and nurturing environment by sharing meals (dinner), personal stories, and leading group prayer sessions to build trust and encourage open communication.</li>
+        </ul>
+    </div>
+    
+    <div class="resume-entry">
+        <div class="resume-row">
+            <strong>Cloud-Resume Project</strong>
+            <span>Project</span>
+        </div>
+        <ul>
+            <li>Create a simple html based resume website that is deployed to google cloud, utilize java, springboot and GCP.</li>
+        </ul>
+    </div>
+
+    <h3>Skills & Interests</h3>
+    
+    <div>
+        <p style="margin: 2px 0;"><strong>Technical:</strong> C++, Java, Python, Google Cloud Platform (GCP), SQL, HTML, CSS</p>
+        <p style="margin: 2px 0;"><strong>Certifications:</strong> Google Associate Cloud Engineer</p>
+        <p style="margin: 2px 0;"><strong>Language:</strong> English, Indonesian</p>
+        <p style="margin: 2px 0;"><strong>Interests:</strong> Volunteering</p>
+    </div>
+
+</body>
+</html>
